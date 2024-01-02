@@ -1,0 +1,151 @@
+
+Калькулятор (Calculator) - Документация проекта
+1. Введение
+Проект "Калькулятор" представляет собой веб-приложение, реализующее функционал простого калькулятора для выполнения базовых математических операций. Этот документ предназначен для обеспечения понимания функциональности и структуры кода проекта.
+
+2. Описание проекта
+2.1 Функциональность
+Ввод цифр и выполнение математических операций: сложение, вычитание, умножение, деление.
+Очистка экрана калькулятора (AC) и удаление последнего введенного символа (CE).
+Отображение текущего выражения и результата вычислений.
+2.2 Технологии
+HTML, CSS, JavaScript используются для создания интерфейса и взаимодействия с пользователем.
+3. Структура проекта
+Проект состоит из следующих основных частей:
+
+HTML-файл (index.html):
+
+Структура веб-страницы с разметкой для отображения калькулятора и подключением стилей и скрипта.
+CSS-файл (style.css):
+
+Файл стилей, определяющий внешний вид калькулятора.
+JavaScript-файл (index.js):
+
+Файл сценария, реализующий логику работы калькулятора.
+4. Структура HTML
+HTML-код поделен на следующие основные разделы:
+
+<head>:
+
+Мета-теги, устанавливающие кодировку и параметры представления.
+Заголовок страницы и подключение внешних стилей.
+<body>:
+
+Контейнер для основного контента приложения.
+Разделен на блоки: results, numbers, operations, clears.
+<script>:
+
+Подключение скрипта для взаимодействия с калькулятором.
+5. Структура CSS
+CSS-стили разделены на следующие основные блоки:
+
+.body:
+
+Стили для общего контейнера калькулятора.
+.results:
+
+Стили для блока отображения результата и текущего выражения.
+#result и #expression:
+
+Стили для блоков отображения результата и текущего выражения.
+.numbers, .operations, .clears:
+
+Стили для кнопок цифр, операций и очистки.
+button:
+
+Общие стили для кнопок, включая анимацию активации.
+6. Структура JavaScript
+JavaScript-скрипт (index.js) включает в себя:
+
+Глобальные переменные:
+
+Переменные для хранения текущего выражения и результата.
+Функции:
+
+Функции для обработки кликов по кнопкам чисел, операций, очистки.
+Функции для выполнения вычислений и управления отображением.
+7. Оптимизация
+Использование современных тегов и атрибутов HTML.
+Группировка и структурирование CSS-стилей для повышения читаемости.
+Добавление атрибута defer для асинхронной загрузки JavaScript.
+8. Заключение
+Проект "Калькулятор" предоставляет простое веб-приложение для выполнения базовых математических операций. Документация обеспечивает понимание структуры проекта и его ключевых компонентов для облегчения разработки и поддержки.
+
+
+
+
+
+
+
+
+Calculator - Project Documentation
+1. Introduction
+The "Calculator" project is a web application that implements the functionality of a basic calculator for performing fundamental mathematical operations. This document is intended to provide an understanding of the project's functionality and code structure.
+
+2. Project Overview
+2.1 Functionality
+Input of digits and execution of mathematical operations: addition, subtraction, multiplication, division.
+Clearing the calculator screen (AC) and removing the last entered character (CE).
+Displaying the current expression and calculation results.
+2.2 Technologies
+HTML, CSS, and JavaScript are used for creating the user interface and interacting with users.
+3. Project Structure
+The project consists of the following main parts:
+
+HTML File (index.html):
+
+Webpage structure with markup for displaying the calculator and links to styles and scripts.
+CSS File (style.css):
+
+Stylesheet file defining the appearance of the calculator.
+JavaScript File (index.js):
+
+Script file implementing the logic of the calculator.
+4. HTML Structure
+HTML code is divided into the following main sections:
+
+<head>:
+
+Meta tags specifying encoding and viewport settings.
+Page title and inclusion of external styles.
+<body>:
+
+Container for the main application content.
+Divided into blocks: results, numbers, operations, clears.
+<script>:
+
+Script inclusion for interacting with the calculator.
+5. CSS Structure
+CSS styles are divided into the following main blocks:
+
+.body:
+
+Styles for the overall calculator container.
+.results:
+
+Styles for the block displaying results and the current expression.
+#result and #expression:
+
+Styles for blocks displaying the result and current expression.
+.numbers, .operations, .clears:
+
+Styles for number buttons, operation buttons, and clear buttons.
+button:
+
+Common styles for buttons, including activation animation.
+6. JavaScript Structure
+The JavaScript script (index.js) includes:
+
+Global Variables:
+
+Variables for storing the current expression and result.
+Functions:
+
+Functions for handling clicks on number buttons, operation buttons, and clear buttons.
+Functions for performing calculations and managing display.
+7. Optimization
+Use of modern HTML tags and attributes.
+Grouping and structuring CSS styles for improved readability.
+Addition of the defer attribute for asynchronous JavaScript loading.
+8. Conclusion
+The "Calculator" project provides a simple web application for basic mathematical operations. The documentation ensures an understanding of the project's structure and key components to facilitate development and maintenance.
